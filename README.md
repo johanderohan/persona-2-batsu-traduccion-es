@@ -12,13 +12,14 @@ japonesa para aplicarlo.
 
 ## Estado
 
-Última versión: **[v1.0](../../releases/tag/v1.0)**.
+Última versión: **[v1.1](../../releases/tag/v1.1)**.
 
 | Parte | Estado |
 |---|---|
 | Guion de eventos y diálogos de los mapas de la ciudad | 9.853 mensajes traducidos |
 | Contacto con demonios, charlas de Persona y presentaciones de las Personas | 7.153 textos traducidos |
 | Menús, objetos, demonios, habilidades, avisos, tarjeta de memoria y nombres de lugar | 3.749 textos traducidos |
+| Mapas de las mazmorras y de la ciudad | Traducidos |
 | Respuestas que se escriben con el teclado (acertijos y nombres) | Adaptadas a letras latinas |
 | Caracteres españoles | **á é í ó ú ü ñ Á É Í Ó Ú Ü Ñ ¡ ¿ « »** |
 | Revisión durante una partida | Parcial (ver abajo) |
@@ -56,6 +57,25 @@ han recorrido en las pruebas. La traducción y su revisión se han hecho con asi
 sin revisores humanos independientes. Si encuentras un error, abre una incidencia con una
 captura.
 
+En la v1.1 se ha revisado todo el texto: se han traducido los textos que faltaban, se han
+corregido erratas y se ha unificado la terminología con la de *Persona 2: Tsumi*. Los mapas de
+las mazmorras y de la ciudad y los demás textos añadidos se han comprobado en los datos del
+disco, pero todavía no dentro de una partida.
+
+## Cambios
+
+- **v1.1** (25-09-2026):
+  - Se traducen los nombres de zonas y salas del mapa de las mazmorras y los rótulos del mapa
+    de la ciudad, que en la v1.0 salían como letras sin sentido.
+  - Se traducen otros textos que seguían en japonés: el primer mensaje de los cofres, la lista
+    de encargos de búsqueda de personas, avisos de combate y la opción «Devolver» de la Velvet
+    Room, entre otros.
+  - Más espacio entre «FILE» y el número de archivo en el mensaje de carga.
+  - Terminología revisada frente a la traducción de *Persona 2: Tsumi* («Museo de la Ciencia
+    del Cielo», «Devolver», «zoroástrico»…).
+  - Unas 130 correcciones de sentido, erratas, ortotipografía y coherencia.
+- **v1.0** (25-09-2026): primera versión.
+
 ## Cómo aplicar el parche
 
 1. Descarga el parche `.xdelta` de la sección **[Releases](../../releases)**.
@@ -79,7 +99,7 @@ captura.
 4. Aplica el parche con una de estas herramientas:
    - **Windows**: [Delta Patcher](https://github.com/marco-calautti/DeltaPatcher/releases)
    - **Linux / macOS**: `xdelta3 -d -s "original.bin" parche.xdelta "Persona 2 - Batsu (ES).bin"`
-5. Comprueba que el BIN resultante tiene el MD5 **`0cf001ed8088e2f50e7b8a0cd8a56994`** (v1.0)
+5. Comprueba que el BIN resultante tiene el MD5 **`8451eb2c4c12426f6fa5804ec9181d0a`** (v1.1)
    y 754.761.504 bytes (es algo más grande que el original).
 6. Crea un CUE para el nuevo BIN, por ejemplo `Persona 2 - Batsu (ES).cue`:
 
