@@ -2,6 +2,8 @@
 
 [![Invítame a un café en Ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/johanderohan)
 
+Ficha del proyecto, capturas y más traducciones al castellano en **[Parches en Castellano](https://parchesencastellano.com/traducciones/playstation/persona-2-batsu)**.
+
 Traducción al **español de España** de *Persona 2: Batsu* (ペルソナ2 罰, PlayStation, 2000),
 el RPG de Atlus que en Occidente se conoce como *Eternal Punishment*. Es la continuación de
 [*Persona 2: Tsumi*](https://github.com/johanderohan/persona-2-tsumi-traduccion-es), que también
